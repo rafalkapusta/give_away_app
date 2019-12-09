@@ -30,7 +30,7 @@ class HomeContact extends Component{
         }
         else {
             error.push('Dziękujemy za wiadomość');
-            this.setState({error: error});
+            this.setState({error: error, name: '', email: '', message: ''});
             fetch(url, {
                 method: 'POST',
                 body: JSON.stringify(data),

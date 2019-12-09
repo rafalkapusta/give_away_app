@@ -1,12 +1,13 @@
 import React from 'react'
 import {Component} from 'react'
+import {Link} from "react-router-dom";
 
 class HomeSimpleSteps extends Component{
     render() {
         return (
             <div className='homeSimpleSteps'>
                 <div className='homeSimpleSteps__text'>
-                    napis
+                    Wystarczą 4 proste kroki
                 </div>
                 <div className='homeSimpleSteps__icons'>
                     <div className='homeSimpleSteps__icons--chose'>
@@ -27,7 +28,7 @@ class HomeSimpleSteps extends Component{
                     </div>
                 </div>
                 <div className='homeSimpleSteps__button'>
-                    button
+                    <Link>Oddaj rzeczy</Link>
                 </div>
             </div>
         )

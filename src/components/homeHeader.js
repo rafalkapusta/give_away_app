@@ -12,8 +12,8 @@ class HomeHeader extends Component{
                     <p>Zacznij pomagać! Oddaj niechciane rzeczy w zaufane ręce</p>
                 </div>
                 <div className='homeHeader__buttons'>
-                    {/*<Link to='/login'>ODDAJ RZECZY</Link>
-                    <Link to='/login'>ZORGANIZUJ ZBIORKE</Link>*/}
+                    <Link to='/login'>ODDAJ RZECZY</Link>
+                    <Link to='/login'>ZORGANIZUJ ZBIORKE</Link>
                 </div>
             </div>
         )
