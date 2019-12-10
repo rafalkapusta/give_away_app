@@ -11,6 +11,8 @@ import Navigation from "./navigation";
 import NotFound from "./notFound";
 
 import '../stylesheets/main.scss'
+import HomeMenu from "./homeMenu";
+import HomeHamburgerMenu from "./homeHamburgerMenu";
 
 class App extends Component {
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
           <div className='appContainer'>
           <Router>
           <Navigation/>
+          <HomeMenu/>
+          <HomeHamburgerMenu/>
             <Switch>
               <Route exact path='/' component={Home}/>
               <Route path='/login' component={Login}/>

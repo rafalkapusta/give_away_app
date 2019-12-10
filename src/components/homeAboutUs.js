@@ -13,7 +13,7 @@ class HomeAboutUs extends Component{
                         Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery.
                         Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.
                     </p>
-                    <p>signature</p>
+                    <div className='homeAboutUs__signature'></div>
                 </div>
                 <div className='homeAboutUs__picture'></div>
             </div>

@@ -5,7 +5,7 @@ import {NavLink} from "react-router-dom";
 class Navigation extends Component {
     render() {
         return (
-            <ul>
+            <ul className='navigation'>
                 <li>
                     <NavLink to='/login'>LOGIN</NavLink>
                 </li>

@@ -28,7 +28,7 @@ class HomeSimpleSteps extends Component{
                     </div>
                 </div>
                 <div className='homeSimpleSteps__button'>
-                    <Link>Oddaj rzeczy</Link>
+                    <div><Link to='/login'>Oddaj rzeczy</Link></div>
                 </div>
             </div>
         )
