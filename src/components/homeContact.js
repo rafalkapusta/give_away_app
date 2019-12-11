@@ -37,7 +37,7 @@ class HomeContact extends Component{
                 headers: {
                     'Content-Type': 'application/json'
                 }
-            }).then(r => r.json()).catch(error => console.log(error));
+            }).then(r => r.json()).then(r => console.log(r)).catch(error => console.log(error));
         }
     };
     render() {

@@ -34,9 +34,9 @@ class WhoWeHelpFoundations extends Component{
                         }
                     )
                 }
-                </div>
-                <div className='homeWhoWeHelpFoundations__pages'>
-                    {pageNumbers}
+                    <div className='homeWhoWeHelpFoundations__pages'>
+                        {pageNumbers}
+                    </div>
                 </div>
             </div>
         )

@@ -32,9 +32,9 @@ class WhoWeHelpLocals extends Component{
                             }
                         )
                     }
-                </div>
-                <div className='homeWhoWeHelpLocals__pages'>
-                    {pageNumbers}
+                    <div className='homeWhoWeHelpLocals__pages'>
+                        {pageNumbers}
+                    </div>
                 </div>
             </div>
         )

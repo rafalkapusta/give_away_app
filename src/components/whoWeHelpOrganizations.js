@@ -33,9 +33,9 @@ class WhoWeHelpOrganizations extends Component{
                             }
                         )
                     }
-                </div>
-                <div className='homeWhoWeHelpOrganizations__pages'>
-                    {pageNumbers}
+                    <div className='homeWhoWeHelpOrganizations__pages'>
+                        {pageNumbers}
+                    </div>
                 </div>
             </div>
         )

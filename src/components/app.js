@@ -20,8 +20,8 @@ class App extends Component {
           <div className='appContainer'>
           <Router>
           <Navigation/>
-          <HomeMenu/>
-          <HomeHamburgerMenu/>
+          {/*<HomeMenu/>
+          <HomeHamburgerMenu/>*/}
             <Switch>
               <Route exact path='/' component={Home}/>
               <Route path='/login' component={Login}/>

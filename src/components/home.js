@@ -15,8 +15,8 @@ class Home extends Component{
         //console.log(this.props);
         return (
             <div className='home'>
-                {/*<HomeMenu/>
-                <HomeHamburgerMenu/>*/}
+                <HomeMenu/>
+                <HomeHamburgerMenu/>
                 <HomeHeader/>
                 <HomeThreeColumns/>
                 <HomeSimpleSteps/>
