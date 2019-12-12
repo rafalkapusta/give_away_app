@@ -9,10 +9,9 @@ import Registration from "./registration";
 import Login from "./login";
 import Navigation from "./navigation";
 import NotFound from "./notFound";
+import Logout from './logout'
 
 import '../stylesheets/main.scss'
-import HomeMenu from "./homeMenu";
-import HomeHamburgerMenu from "./homeHamburgerMenu";
 
 class App extends Component {
   render() {
