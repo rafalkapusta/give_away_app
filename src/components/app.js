@@ -10,6 +10,7 @@ import Login from "./login";
 import Navigation from "./navigation";
 import NotFound from "./notFound";
 import Logout from './logout'
+import GiveAwayPage from "./giveAwayPage";
 
 import '../stylesheets/main.scss'
 
@@ -26,6 +27,7 @@ class App extends Component {
               <Route path='/login' component={Login}/>
               <Route path='/registration' component={Registration}/>
               <Route path='/logout' component={Logout}/>
+              <Route path='/give_away' component={GiveAwayPage}/>
               <Route component={NotFound}/>
             </Switch>
           </Router>
