@@ -8,25 +8,27 @@ import Home from './home'
 import Registration from "./registration";
 import Login from "./login";
 import Navigation from "./navigation";
+import NavigationAuthUser from "./naviagtionAuthUser";
 import NotFound from "./notFound";
-import Logout from './logout'
+import LogoutPage from './logoutPage'
 import GiveAwayPage from "./giveAwayPage";
 
 import '../stylesheets/main.scss'
+import {connect} from "react-redux";
 
 class App extends Component {
   render() {
       return (
           <div className='appContainer'>
           <Router>
-          <Navigation/>
+          {this.props.login? <NavigationAuthUser/>:<Navigation/>}
           {/*<HomeMenu/>
           <HomeHamburgerMenu/>*/}
             <Switch>
               <Route exact path='/' component={Home}/>
               <Route path='/login' component={Login}/>
               <Route path='/registration' component={Registration}/>
-              <Route path='/logout' component={Logout}/>
+              <Route path='/logout' component={LogoutPage}/>
               <Route path='/give_away' component={GiveAwayPage}/>
               <Route component={NotFound}/>
             </Switch>
@@ -36,6 +38,12 @@ class App extends Component {
   }
 }
 
-export default App;
+const mapStateToProps = state => {
+    return {
+        login: state.loginState
+    }
+};
 
-// render={() => <Login login={this.Login} logout={this.Logout} userApp={this.state}/>}
+export default connect(
+    mapStateToProps,
+)(App);

@@ -1,6 +1,8 @@
 import React from 'react';
 import {Component} from 'react';
-import {connect} from "react-redux";
+import GiveAwayPageHeader from "./giveAwayPageHeader";
+import GiveAwayPageForm from "./giveAwayPageForm";
+import GiveAwayPageContact from "./giveAwayPageContact";
 
 class GiveAwayPage extends Component{
     render() {
@@ -12,18 +14,13 @@ class GiveAwayPage extends Component{
         }
         return (
             <>
-            {login}
+                {/*<GiveAwayPageHeader/>
+                <GiveAwayPageForm/>
+                <GiveAwayPageContact/>*/}
             </>
         )
     }
 }
 
-const mapStateToProps = state => {
-    return {
-        login: state.loginState
-    }
-};
 
-export default connect(
-    mapStateToProps,
-)(GiveAwayPage);
+export default GiveAwayPage;

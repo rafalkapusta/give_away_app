@@ -66,7 +66,7 @@ class RegistrationFormBase extends Component {
                                    value={this.state.email}
                                    onChange={this.handleChange}
                                    style={this.state.emailError? error:null}/>
-                            <p style={{color: 'red'}}>{this.state.emailError? 'Nieprawidłowy email':null}</p>
+                            <p style={{color: 'red'}}>{this.state.error ? this.state.error.message:null}</p>
                         </div>
                         <div className='registrationForm__password'>
                             <label htmlFor="password">HASLO</label>

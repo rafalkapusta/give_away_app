@@ -2,7 +2,7 @@ import React from 'react';
 import {Component} from 'react';
 import {Link} from "react-router-dom";
 
-class Logout extends Component{
+class LogoutPage extends Component{
     render() {
         return (
             <div className='logoutContainer'>
@@ -13,4 +13,5 @@ class Logout extends Component{
     }
 }
 
-export default Logout;
+export default LogoutPage;
+

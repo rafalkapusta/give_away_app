@@ -4,7 +4,7 @@ import {Component} from 'react';
 import { Link, withRouter } from 'react-router-dom';
 
 import { withFirebase } from './Firebase';
-import {login} from "../actions/login";
+import {login} from "../actions/toggleLogin";
 import {connect} from "react-redux";
 
 class LoginFormBase extends Component {
@@ -46,6 +46,9 @@ class LoginFormBase extends Component {
                 .then(r => console.log(r))*/
         }
     };
+    componentWillUnmount() {
+
+    }
     render() {
         const error = {
             border: 'none',
@@ -64,7 +67,7 @@ class LoginFormBase extends Component {
                                    value={this.state.email}
                                    onChange={this.handleChange}
                                    style={this.state.emailError ? error : null}/>
-                            <p style={{color: 'red'}}>{this.state.emailError ? 'Nieprawidłowy email' : null}</p>
+                            <p style={{color: 'red'}}>{this.state.error ? this.state.error.message:null}</p>
                         </div>
                         <div className='loginForm__password'>
                             <label htmlFor="password">HASLO</label>

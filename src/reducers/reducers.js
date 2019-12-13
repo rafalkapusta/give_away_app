@@ -1,12 +1,14 @@
 import {combineReducers} from "redux";
 import menuReducer from "./menu";
 import whoWeHelpReducer from "./whoWeHelp";
-import loginReducer from "./login";
+import login_logoutReducer from "./login_logout";
+
 
 const rootReducer = combineReducers({
     menuState: menuReducer,
     helpState: whoWeHelpReducer,
-    loginState: loginReducer
+    loginState: login_logoutReducer
+
 });
 
 export default rootReducer;
