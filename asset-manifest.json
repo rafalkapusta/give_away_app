@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/give_away_app/static/css/main.58db5697.chunk.css",
+    "main.js": "/give_away_app/static/js/main.f11d5b5d.chunk.js",
+    "main.js.map": "/give_away_app/static/js/main.f11d5b5d.chunk.js.map",
+    "runtime-main.js": "/give_away_app/static/js/runtime-main.333e0e0f.js",
+    "runtime-main.js.map": "/give_away_app/static/js/runtime-main.333e0e0f.js.map",
+    "static/js/2.f3b6e3e2.chunk.js": "/give_away_app/static/js/2.f3b6e3e2.chunk.js",
+    "static/js/2.f3b6e3e2.chunk.js.map": "/give_away_app/static/js/2.f3b6e3e2.chunk.js.map",
+    "index.html": "/give_away_app/index.html",
+    "precache-manifest.45bce4390a23618bf52a9c2ae363dbf3.js": "/give_away_app/precache-manifest.45bce4390a23618bf52a9c2ae363dbf3.js",
+    "service-worker.js": "/give_away_app/service-worker.js",
+    "static/css/main.58db5697.chunk.css.map": "/give_away_app/static/css/main.58db5697.chunk.css.map",
+    "static/media/main.scss": "/give_away_app/static/media/Signature.e54cfcfc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.333e0e0f.js",
+    "static/js/2.f3b6e3e2.chunk.js",
+    "static/css/main.58db5697.chunk.css",
+    "static/js/main.f11d5b5d.chunk.js"
+  ]
+}
