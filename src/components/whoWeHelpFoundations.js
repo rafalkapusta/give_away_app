@@ -24,8 +24,7 @@ class WhoWeHelpFoundations extends Component{
         return (
             <div className='homeWhoWeHelpFoundations' style={this.props.style}>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    Fundacje Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
                 </p>
                 <div className='homeWhoWeHelpFoundations__foundations'>
                 {
