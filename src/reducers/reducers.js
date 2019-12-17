@@ -8,7 +8,6 @@ const rootReducer = combineReducers({
     menuState: menuReducer,
     helpState: whoWeHelpReducer,
     loginState: login_logoutReducer
-
 });
 
 export default rootReducer;

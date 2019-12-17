@@ -77,7 +77,7 @@ class LoginFormBase extends Component {
                                    value={this.state.password}
                                    onChange={this.handleChange}
                                    style={this.state.passwordError ? error : null}/>
-                            <p style={{color: 'red'}}>{this.state.passwordError ? 'Nieprawidłowe hasło' : null}</p>
+                            <p style={{color: 'red'}}>{this.state.passwordError ? 'Wrong password' : null}</p>
                         </div>
                         <input type='submit' value='Zaloguj się'/>
                         <Link to='/registration'>Załóż konto</Link>

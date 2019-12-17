@@ -76,7 +76,7 @@ class RegistrationFormBase extends Component {
                                    value={this.state.password}
                                    onChange={this.handleChange}
                                    style={this.state.passwordError? error:null}/>
-                            <p style={{color: 'red'}}>{this.state.passwordError? 'Hasło musi mieć co najmniej 6 znaków':null}</p>
+                            <p style={{color: 'red'}}>{this.state.passwordError? 'Password has to be at least 6 characters long':null}</p>
                         </div>
                         <div className='registrationForm__passwordRepeat'>
                             <label htmlFor="passwordRepeat">POWTÓRZ HASLO</label>
@@ -86,7 +86,7 @@ class RegistrationFormBase extends Component {
                                    value={this.state.passwordRepeat}
                                    onChange={this.handleChange}
                                    style={this.state.passwordRepeatError? error:null}/>
-                            <p style={{color: 'red'}}>{this.state.passwordRepeatError? 'Hasła muszą być takie same':null}</p>
+                            <p style={{color: 'red'}}>{this.state.passwordRepeatError? 'Both passwords have to be the same':null}</p>
                         </div>
                         <input type='submit' value='Załóż konto'/>
                         <Link to='/login'>Zaloguj się</Link>
