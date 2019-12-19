@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1cc23cce31b239f6a0ed848580994686",
+    "revision": "c08da3d8ce314416b0827ea23087dcec",
     "url": "/give_away_app/index.html"
   },
   {
-    "revision": "af8d7ead163be352a267",
-    "url": "/give_away_app/static/css/main.58db5697.chunk.css"
+    "revision": "a1e1d9117aae1344a18a",
+    "url": "/give_away_app/static/css/main.92ba3367.chunk.css"
   },
   {
-    "revision": "79a26380a062767dbb2f",
-    "url": "/give_away_app/static/js/2.f3b6e3e2.chunk.js"
+    "revision": "3e2cd99e6f2cf45f5e4f",
+    "url": "/give_away_app/static/js/2.a48c54a1.chunk.js"
   },
   {
-    "revision": "af8d7ead163be352a267",
-    "url": "/give_away_app/static/js/main.f11d5b5d.chunk.js"
+    "revision": "a1e1d9117aae1344a18a",
+    "url": "/give_away_app/static/js/main.521eb8e1.chunk.js"
   },
   {
     "revision": "b5d1ef4bc2344eac74c4",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f4db7ddd6531361fb3777e2b8fe9e8d9",
     "url": "/give_away_app/static/media/Background-Contact-Form.f4db7ddd.jpg"
+  },
+  {
+    "revision": "aab5aa4cf97893341cd5aed84c736cd5",
+    "url": "/give_away_app/static/media/Background-Form.aab5aa4c.jpg"
   },
   {
     "revision": "2290784ed27eb2dc06f78414add6bec8",
