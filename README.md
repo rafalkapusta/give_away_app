@@ -11,9 +11,9 @@ Web app built with React, Redux and Firebase.
 Still underconstruction but main features like landing page and user authorization are ready.
 
 Uses firebase authorization. 
-Redux controlls the state of whole app. 
+Redux controls the state of whole app. 
 
-After registration user can proceed to section for authoriset users only. 
+After registration user can proceed to section for authorized users only. 
 This section is still underconstruction.
 
 Page is fully responsive.
