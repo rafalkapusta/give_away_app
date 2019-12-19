@@ -16,5 +16,7 @@ Redux controlls the state of whole app.
 After registration user can proceed to section for authoriset users only. 
 This section is still underconstruction.
 
+Page is fully responsive.
+
 
 ![Give away app demo](giveAway.gif)
