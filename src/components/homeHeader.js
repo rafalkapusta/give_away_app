@@ -1,6 +1,7 @@
 import React from 'react'
 import {Component} from 'react'
 import {Link} from "react-router-dom";
+import {connect} from "react-redux";
 
 class HomeHeader extends Component{
     render() {
@@ -12,12 +13,21 @@ class HomeHeader extends Component{
                     <p>Zacznij pomagać! Oddaj niechciane rzeczy w zaufane ręce</p>
                 </div>
                 <div className='homeHeader__buttons'>
-                    <Link to='/login'>ODDAJ RZECZY</Link>
-                    <Link to='/login'>ZORGANIZUJ ZBIORKE</Link>
+                    <Link to={this.props.login? '/give_away':'/login'}>ODDAJ RZECZY</Link>
+                    <Link to={this.props.login? '/give_away':'/login'}>ZORGANIZUJ ZBIORKE</Link>
                 </div>
             </div>
         )
     }
 }
 
-export default HomeHeader;
+const mapStateToProps = state => {
+    return {
+        login: state.loginState
+    }
+};
+
+export default connect(
+    mapStateToProps,
+)(HomeHeader);
+//export default HomeHeader;
